@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Home.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 import {useState} from 'react'
 
 export default function Home() {
@@ -86,7 +87,7 @@ export default function Home() {
                     return(
                         <div className={styles.dogItem} key={dog.id}>
                             <Link href={`/${dog.name}`}><a className={styles.dogImageBox}>
-                                <img src={dog.image} alt={dog.name} className={styles.dogImage}/>
+                                <Image src={dog.image} alt={dog.name} className={styles.dogImage}/>
                             </a></Link>
                             <div className={styles.dogText}>
                             <p className={styles.dogHeader}>{dog.name}</p>

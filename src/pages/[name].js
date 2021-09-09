@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Pstyles.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 export default function name({dog,otherDogs}) {
     return (
         <div className={styles.container}>
@@ -10,7 +11,7 @@ export default function name({dog,otherDogs}) {
             </Head>
 
             <div className={styles.dogWrapperLeft}>
-                <img src={dog.image} alt={dog.name} className={styles.dogImage}></img>
+                <Image src={dog.image} alt={dog.name} className={styles.dogImage}></Image>
             </div>
 
             <div className={styles.dogWrapperRight}>
@@ -25,7 +26,7 @@ export default function name({dog,otherDogs}) {
                             return(
                             <div className={styles.otherDogs} key={otherDogs.id}>
                                 <Link href={"/" + otherDogs.name}><a>
-                                    <img src={otherDogs.image} alt={otherDogs.name} />
+                                    <Image src={otherDogs.image} alt={otherDogs.name} />
                                     <p>{otherDogs.name}</p>
                                 </a></Link>
                             </div>

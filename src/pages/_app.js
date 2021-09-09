@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import styles from '../styles/MyApp.module.css';
 import Link from 'next/link';
+import Image from 'next/image'
 function MyApp({ Component, pageProps }) {
   return(
     <>
@@ -8,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <ui className={styles.navbarContactBox}>
         <Link href="/"><a>
         <div className={styles.brand}>
-          <img src='/assets/images/dog.svg' alt='brand' />
+          <Image src='/assets/images/dog.svg' alt='brand' />
           <p>Friends Forever</p>
         </div>
         </a></Link>
