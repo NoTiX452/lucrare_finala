@@ -118,7 +118,7 @@ export const getStaticProps = async ({params}) =>{
         breed:'Mastiff',
         age:'2 years old / 14 years old in human years',
         image:'https://images.unsplash.com/photo-1518378188025-22bd89516ee2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRvZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60',
-        desc:['Male','Big size','Good for outdoors','Active',"Don't let his big size and scary face fool you! Ralph is very sweet inside and he is the biggest baby you will ever see! He can't get enough belly scratches,cuddles,sweet talks and kisses."]
+        desc:['Male','Big size','Good for outdoors','Active','Dont let his big size and scary face fool you! Ralph is very sweet inside and he is the biggest baby you will ever see! He cant get enough belly scratches,cuddles,sweet talks and kisses.']
         },
 
         {
