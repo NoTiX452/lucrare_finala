@@ -1,0 +1,49 @@
+.navbar{
+    margin-top: 2rem;
+}
+
+.navbarContactBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D9CED6;
+    height: 3rem;
+    font-weight: 400;
+    color:#4F0000;
+}
+
+.navbarContact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#AE8B70;
+    border-radius: 50px;
+    margin-right: 16px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.brandLogo{
+    padding-top:10px;
+    height: 42px;
+    width: 42px;
+}
+
+@media only screen and (max-width:600px){
+    .brand{
+        font-size: 12px;
+        text-align: center;
+        padding: 0;
+    }
+    .brandLogo{
+        height: 32px;
+        width: 32px;
+    }
+}
